@@ -9,18 +9,19 @@
 
 > **AI Engineer specializing in agentic systems, scalable ML infrastructure, and real-world impact.**
 
----
+## ⭐ Key Results
 
-> **Key Results**
-> - Built and deployed scalable AI/ML platforms used by 50+ researchers and students.
-> - Developed and productionized custom NLP and RL models, improving task accuracy by 20–40%.
-> - Automated data collection and processing for 1M+ records with robust anti-blocking strategies.
-> - Chaired communication committee, led meetings, and delegated work to council members in the Faculty of Science Student Council.
+- Built and deployed scalable AI/ML platforms used by 50+ researchers and students.
+- Developed and productionized custom NLP and RL models, improving task accuracy by 20–40%.
+- Automated data collection and processing for 1M+ records with robust anti-blocking strategies.
+- Chaired communication committee, led meetings, and delegated work to council members in the Faculty of Science Student Council.
+- Recognized for outstanding project management, implementation, and critical thinking skills by academic supervisors.
+- Offered a research assistant position in the European Hedge-IoT project based on thesis excellence.
 
 ---
 
 ## 🏆 Professional Summary
-Dynamic and results-driven Artificial Intelligence Engineer with a proven track record in developing innovative machine learning solutions, advanced algorithms, and scalable data science platforms. Experienced in deploying complex systems for both academic research and real-world applications, with strong skills in Python, ML, NLP, and IoT. Adept at leading projects, collaborating in international teams, and supporting students as a teaching assistant.
+Dynamic and results-driven Artificial Intelligence Engineer with a proven track record in developing innovative machine learning solutions, advanced algorithms, and scalable data science platforms. Recognized for outstanding project management, implementation, and critical thinking skills. Experienced in deploying complex systems for both academic research and real-world applications, with strong skills in Python, ML, NLP, IoT, heterogeneous data processing, and knowledge graph construction. Adept at leading projects, collaborating in international teams, and supporting students as a teaching assistant.
 
 ---
 
@@ -28,7 +29,7 @@ Dynamic and results-driven Artificial Intelligence Engineer with a proven track 
 
 ### HedgeIoT: Advanced IoT Data Science Platform & Algorithmic Research
 **Institution:** **Vrije Universiteit Amsterdam**  
-**Role:** *AI/ML Engineer & Teaching Assistant*  
+**Role:** *Research Assistant / Algorithm & ML Engineer*  
 - Built and deployed a fully dockerized, multi-user JupyterHub platform supporting 50+ users for collaborative research and real-time IoT data integration.
 - Designed and implemented algorithms for real-time data ingestion from distributed IoT devices, converting raw sensor streams into semantically rich, linked data using custom machine learning pipelines.
 - Developed predictive models for device behavior and anomaly detection, leveraging time-series analysis and knowledge graph techniques to enable automated decision-making and event triggering across devices.
@@ -50,6 +51,12 @@ Dynamic and results-driven Artificial Intelligence Engineer with a proven track 
 - Applied trajectory classification using LSTM-AE-Attention and SSVM.
 - Built anomaly detection pipelines for large-scale mobility data.
 - Benchmarked synthetic and real-world datasets using advanced graph-theoretical and ML metrics.
+
+### Bachelor's Thesis: Explainable AI Development Environment and Tutorial for Heterogeneous IoT Data Processing
+**Institution:** **Vrije Universiteit Amsterdam**  
+- Successfully defended with a grade of 8.0.
+- Project focused on explainable AI, heterogeneous data processing, and IoT data integration.
+- Led to being offered a research assistant position in the European Hedge-IoT project.
 
 ---
 
@@ -119,9 +126,20 @@ Dynamic and results-driven Artificial Intelligence Engineer with a proven track 
 
 ---
 
+## 🗣️ Testimonials
+> "Matt demonstrated good implementation skills, critical thinking, and impressive project management skills. He is easy to communicate with and always ready to help."  
+> — Dr. Ronald Siebes, Assistant Professor, Vrije Universiteit Amsterdam
+
+---
+
 ## 🌐 Conferences & Community
 - **Sino-Dutch Conference on Smart City** – Attendee, 2025  
   Participated in international discussions on AI, IoT, and smart city technologies, networking with leading researchers and industry experts.
+
+---
+
+## 📄 Publications
+- van der Weerdt, R., Wilcke, X., Kędzia, M., Beelen, W., de Boer, V., Bouter, C., Daniele, L., Lathouwers, S., Nouwt, B., Siebes, R. (2025). Semantic Technologies for Flexible Energy Grids: the Arnhems Buiten demonstrator. ICT Open abstract about the Dutch HEDGE-IoT pilot. [Zenodo](https://zenodo.org/records/15012762), [DOI: 10.5281/zenodo.15012762](https://doi.org/10.5281/zenodo.15012762)
 
 ---
 
@@ -161,6 +179,7 @@ The VU Amsterdam AI Master's program is at the forefront of developing intellige
 | **Experimental Design and Data Analysis for AI**| 6.5   |
 | **Multi-Agent Systems**                        | 6.0   |
 | **Communicative Robots**                       | 6.5   |
+| &nbsp;&nbsp;&bull; Developed a conversational agent using OpenAI API and custom-built tools; won the class competition (best out of 8 teams). |
 
 ### [Bachelor of Science in Artificial Intelligence](https://vu.nl/en/education/bachelor/artificial-intelligence/curriculum)  
 *Vrije Universiteit Amsterdam*  
@@ -194,4 +213,6 @@ The VU Amsterdam AI Bachelor's program is unique for its dual focus on both the 
 
 ---
 
-**References available upon request.** 
+**References available upon request.**
+
+---
