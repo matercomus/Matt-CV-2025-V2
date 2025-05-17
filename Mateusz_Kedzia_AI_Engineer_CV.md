@@ -1,20 +1,29 @@
 # Mateusz Kędzia – AI/ML Engineer & Researcher
 
 **Contact:** m.g.kedzia@student.vu.nl | +86 135 5246 6785  
-**Location:** Amsterdam, Netherlands / Beijing, China
+**Location:** Beijing, China  
+**GitHub:** [github.com/matercomus](https://github.com/matercomus)
 
 ---
 
-## Professional Summary
+> **Key Strengths**
+> - End-to-end AI/ML system design: from data pipelines to production deployment
+> - Advanced agent/LLM development (LangChain, RAG, orchestration)
+> - Deep expertise in Python, Linux, and scalable cloud/data infrastructure
+> - Strong communicator, mentor, and international collaborator
+
+---
+
+## 🏆 Professional Summary
 Dynamic and results-driven Artificial Intelligence Engineer with a proven track record in developing innovative machine learning solutions, advanced algorithms, and scalable data science platforms. Experienced in deploying complex systems for both academic research and real-world applications, with strong skills in Python, ML, NLP, and IoT. Adept at leading projects, collaborating in international teams, and supporting students as a teaching assistant.
 
 ---
 
-## Key Projects & Achievements
+## 🚀 Key Projects & Achievements
 
 ### HedgeIoT: Advanced IoT Data Science Platform & Algorithmic Research
-**Institution:** Vrije Universiteit Amsterdam  
-**Role:** AI/ML Engineer & Teaching Assistant
+**Institution:** **Vrije Universiteit Amsterdam**  
+**Role:** *AI/ML Engineer & Teaching Assistant*  
 - Developed and deployed a fully dockerized, multi-user JupyterHub platform and a real-time IoT device integration demo, advancing research and practical applications in AI, ML, and knowledge engineering.
 - Designed and implemented algorithms for real-time data ingestion from distributed IoT devices, converting raw sensor streams into semantically rich, linked data using custom machine learning pipelines.
 - Built predictive models for device behavior and anomaly detection, leveraging time-series analysis and knowledge graph techniques to enable automated decision-making and event triggering across devices.
@@ -23,15 +32,15 @@ Dynamic and results-driven Artificial Intelligence Engineer with a proven track 
 - Led the development of a demo for the HedgeIoT conference, showcasing integration of diverse IoT devices and machine learning algorithms using TNO's knowledge network, with real-time data visualization via Grafana dashboards.
 
 ### Web Crawler for Dutch News Archives
-**Institution:** University of Amsterdam  
-**Role:** Research Assistant, Data Analysis & Web Scraping
+**Institution:** **University of Amsterdam**  
+**Role:** *Research Assistant, Data Analysis & Web Scraping*  
 - Developed a robust web crawler for collecting archived Dutch news articles, supporting research on historical media trends.
 - Implemented algorithms for evading IP blocking (rotating proxies, randomized user agents, request throttling).
 - Designed and deployed data extraction pipelines to parse and structure large volumes of unstructured web data.
 - Developed relevance filtering algorithms to extract and retain only pertinent articles, ensuring data integrity and scalability for large datasets.
 
 ### MSc Thesis: Generating Synthetic Spatio-temporal Car-hailing Traffic Knowledge Graphs
-**Institutions:** Vrije Universiteit Amsterdam & Beijing University of Technology
+**Institutions:** **Vrije Universiteit Amsterdam & Beijing University of Technology**  
 - Developed and extended algorithms for spatio-temporal knowledge graph generation (including GAN-based approaches).
 - Applied trajectory classification using LSTM-AE-Attention and SSVM.
 - Built anomaly detection pipelines for large-scale mobility data.
@@ -39,7 +48,7 @@ Dynamic and results-driven Artificial Intelligence Engineer with a proven track 
 
 ---
 
-## Relevant Coursework & Technical Skills
+## 📚 Relevant Coursework & Technical Skills
 
 ### MSc Artificial Intelligence
 | Course                                         | Grade |
@@ -91,26 +100,78 @@ Dynamic and results-driven Artificial Intelligence Engineer with a proven track 
 
 ---
 
-## Teaching & Mentoring Experience
+## 🛠️ Technical Skills
+
+- **Programming & Scripting:**  
+  Python (advanced, production-level), Bash (advanced scripting), SQL  
+  Strong Linux proficiency for development, deployment, and automation (daily user for 6+ years)
+
+- **Web & API Development:**  
+  FastAPI, Flask, Django, Streamlit for rapid prototyping and scalable web services
+
+- **Machine Learning & Deep Learning:**  
+  PyTorch, TensorFlow, Keras, scikit-learn, XGBoost, LightGBM, CatBoost  
+  Custom model implementation (CNNs, DNNs, RL agents, evolutionary algorithms)  
+  Model evaluation, hyperparameter tuning, and deployment best practices
+
+- **Data Engineering & Analysis:**  
+  Pandas, Polars, NumPy for high-performance data wrangling and analytics  
+  GeoPandas, NetworkX, OSMnx for geospatial and network analysis  
+  Pydantic for robust data validation and type-safe pipelines  
+  Data visualization: Matplotlib, Seaborn, Grafana (real-time dashboards)
+
+- **Natural Language Processing & LLMs:**  
+  Transformers (HuggingFace), spaCy, NLTK  
+  LLM application and agent development: LangChain, LlamaIndex, OpenAI API, vector databases (FAISS, Pinecone)  
+  Prompt engineering, retrieval-augmented generation (RAG), and LLM orchestration
+
+- **AI Agent & Workflow Orchestration:**  
+  LangChain, Pydantic AI, agentic frameworks for building autonomous and multi-step AI agents  
+  Integration of LLMs with external tools, APIs, and knowledge bases
+
+- **Web Scraping & Automation:**  
+  Scrapy, BeautifulSoup, Selenium  
+  Proxy management, anti-bot/anti-blocking strategies, scalable scraping pipelines
+
+- **DevOps & Infrastructure:**  
+  Docker, Docker Compose, Kubernetes (K8s)  
+  NGINX for reverse proxying and secure API deployment  
+  CI/CD pipeline design and automation
+
+- **IoT, Knowledge Graphs & Semantic Data:**  
+  Triple stores, RDF, SPARQL (CRUD), semantic data integration  
+  RDFlib, GraphDB for knowledge graph management  
+  Real-time data ingestion and device orchestration
+
+- **Interactive & Computational Tools:**  
+  JupyterHub, Jupyter Notebooks for collaborative research and teaching  
+  LaTeX, Markdown for scientific writing and documentation
+
+- **Remote & Advanced Development:**  
+  Daily remote development on Linux servers and cloud VMs  
+  Advanced NVIM/LunarVim workflows for efficient coding  
+  Python multiprocessing, threading, and parallelization for scalable computation
+
+- **Collaboration & Code Quality:**  
+  Git, GitHub Actions, code review, documentation, and mentoring
+
+---
+
+## 👨‍🏫 Teaching & Mentoring Experience
 - Supported and mentored students in Machine Learning, Socially Intelligent Robotics, and related courses, providing guidance on both theoretical and practical aspects of AI and ML.
 - Led practical sessions, supervised projects, and contributed to grading and curriculum development.
 
 ---
 
-## Technical Skills
-- **Programming:** Python, SQL, Bash
-- **Machine Learning:** PyTorch, scikit-learn, XGBoost, custom implementations
-- **Data Science:** Pandas, NumPy, data wrangling, visualization (Matplotlib, Seaborn, Grafana)
-- **NLP:** Transformers, spaCy, NLTK
-- **DevOps:** Docker, CI/CD pipelines
-- **IoT & Knowledge Graphs:** Triple stores, semantic data integration
-- **Web Scraping:** Scrapy, BeautifulSoup, proxy management
+## 🌐 Conferences & Community
+- **Sino-Dutch Conference on Smart City** – Attendee, 2024  
+  Participated in international discussions on AI, IoT, and smart city technologies, networking with leading researchers and industry experts.
 
 ---
 
-## Languages
-- Polish (Native)
-- English (Fluent)
-- Chinese (HSK2)
-- Spanish (Basic Proficiency)
-- Dutch (Basic Proficiency) 
+## 🌍 Languages
+- **Polish:** Native
+- **English:** Fluent
+- **Chinese:** HSK2
+- **Spanish:** Basic Proficiency
+- **Dutch:** Basic Proficiency 
