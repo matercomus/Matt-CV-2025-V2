@@ -1,6 +1,7 @@
 # Mateusz Kędzia – AI/ML Engineer & Researcher
 
-**Contact:** m.g.kedzia@student.vu.nl | +86 135 5246 6785  
+**Contact:** mateusz.kedzia@gmail.com | +86 135 5246 6785  
+**WeChat:** _Add on WeChat via phone number in app_  
 **Location:** Beijing, China  
 **GitHub:** [github.com/matercomus](https://github.com/matercomus)
 
@@ -29,7 +30,7 @@ Dynamic and results-driven Artificial Intelligence Engineer with a proven track 
 - Built predictive models for device behavior and anomaly detection, leveraging time-series analysis and knowledge graph techniques to enable automated decision-making and event triggering across devices.
 - Integrated a triple store for persistent, queryable storage of IoT-generated knowledge, facilitating advanced analytics and semantic reasoning.
 - Architected a scalable, reproducible environment for collaborative experimentation, supporting both research and production-grade AI/ML workflows.
-- Led the development of a demo for the HedgeIoT conference, showcasing integration of diverse IoT devices and machine learning algorithms using TNO's knowledge network, with real-time data visualization via Grafana dashboards.
+- Led the development of a demo for the HedgeIoT conference, showcasing integration of diverse IoT devices and machine learning algorithms using TNO's knowledge network, with real-time data visualization via [Grafana dashboard](http://dashboard.hedge-iot.labs.vu.nl/grafana) and a custom [JupyterHub](http://jupyterhub.hedge-iot.labs.vu.nl/jh) deployed on VU servers for real-time data integration.
 
 ### Web Crawler for Dutch News Archives
 **Institution:** **University of Amsterdam**  
@@ -39,7 +40,7 @@ Dynamic and results-driven Artificial Intelligence Engineer with a proven track 
 - Designed and deployed data extraction pipelines to parse and structure large volumes of unstructured web data.
 - Developed relevance filtering algorithms to extract and retain only pertinent articles, ensuring data integrity and scalability for large datasets.
 
-### MSc Thesis: Generating Synthetic Spatio-temporal Car-hailing Traffic Knowledge Graphs
+### Master Thesis: Generating Synthetic Spatio-temporal Car-hailing Traffic Knowledge Graphs
 **Institutions:** **Vrije Universiteit Amsterdam & Beijing University of Technology**  
 - Developed and extended algorithms for spatio-temporal knowledge graph generation (including GAN-based approaches).
 - Applied trajectory classification using LSTM-AE-Attention and SSVM.
@@ -50,7 +51,11 @@ Dynamic and results-driven Artificial Intelligence Engineer with a proven track 
 
 ## 📚 Relevant Coursework & Technical Skills
 
-### MSc Artificial Intelligence
+### [Master of Science in Artificial Intelligence](https://vu.nl/en/education/master/artificial-intelligence/curriculum)  
+*Vrije Universiteit Amsterdam*  
+*“Hybrid intelligence: where AI systems and humans meet.”*  
+The VU Amsterdam AI Master's program is at the forefront of developing intelligent systems that integrate advanced AI techniques with human behavior and social context. The curriculum covers deep learning, evolutionary computing, multi-agent systems, knowledge representation, and natural language processing, with opportunities to specialize in areas like cognitive science or AI for health. Students learn to design solutions that make sense within real-world, multidisciplinary environments, and collaborate with leading researchers and industry partners.  
+
 | Course                                         | Grade |
 |------------------------------------------------|-------|
 | **Deep Learning**                              | 7.5   |
@@ -72,7 +77,11 @@ Dynamic and results-driven Artificial Intelligence Engineer with a proven track 
 | **Multi-Agent Systems**                        | 6.0   |
 | **Communicative Robots**                       | 6.5   |
 
-### BSc Artificial Intelligence
+### [Bachelor of Science in Artificial Intelligence](https://vu.nl/en/education/bachelor/artificial-intelligence/curriculum)  
+*Vrije Universiteit Amsterdam*  
+*“Where people and tech meet.”*  
+The VU Amsterdam AI Bachelor's program is unique for its dual focus on both the technological and human aspects of AI. The curriculum blends programming, mathematics, and computer science with human interaction, recognition, and behavior. Students gain hands-on experience in building intelligent systems, understanding ethical and societal impacts, and applying AI to real-world challenges in healthcare, mobility, and more.  
+
 | Course                                         | Grade |
 |------------------------------------------------|-------|
 | **Bachelor Project Artificial Intelligence**    | 8.0   |
@@ -121,7 +130,8 @@ Dynamic and results-driven Artificial Intelligence Engineer with a proven track 
   Data visualization: Matplotlib, Seaborn, Grafana (real-time dashboards)
 
 - **Natural Language Processing & LLMs:**  
-  Transformers (HuggingFace), spaCy, NLTK  
+  Transformers (implemented from scratch), spaCy, NLTK  
+  Hugging Face models for advanced applications (e.g., voice detection, image-to-LaTeX math conversion)  
   LLM application and agent development: LangChain, LlamaIndex, OpenAI API, vector databases (FAISS, Pinecone)  
   Prompt engineering, retrieval-augmented generation (RAG), and LLM orchestration
 
@@ -139,7 +149,7 @@ Dynamic and results-driven Artificial Intelligence Engineer with a proven track 
   CI/CD pipeline design and automation
 
 - **IoT, Knowledge Graphs & Semantic Data:**  
-  Triple stores, RDF, SPARQL (CRUD), semantic data integration  
+  Triple stores, RDF, SPARQL, semantic data integration  
   RDFlib, GraphDB for knowledge graph management  
   Real-time data ingestion and device orchestration
 
@@ -164,7 +174,7 @@ Dynamic and results-driven Artificial Intelligence Engineer with a proven track 
 ---
 
 ## 🌐 Conferences & Community
-- **Sino-Dutch Conference on Smart City** – Attendee, 2024  
+- **Sino-Dutch Conference on Smart City** – Attendee, 2025  
   Participated in international discussions on AI, IoT, and smart city technologies, networking with leading researchers and industry experts.
 
 ---
