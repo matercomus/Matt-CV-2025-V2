@@ -25,6 +25,11 @@ Results-driven ML/Data Engineer with a proven track record in developing, deploy
 
 ## 🚀 Key Projects & Achievements
 
+### MSc Thesis: Synthetic Spatio-temporal Car-hailing Traffic Knowledge Graphs (Ongoing)
+**Vrije Universiteit Amsterdam & Beijing University of Technology**
+**Highlight:** Leading-edge research on large-scale spatio-temporal knowledge graph generation and trajectory classification for urban mobility data.
+- Developing and benchmarking algorithms for spatio-temporal knowledge graph generation and trajectory classification (GANs, LSTM-AE, SSVM).
+
 ### HedgeIoT: IoT Data Science Platform & ML Engineering
 **Vrije Universiteit Amsterdam**  
 **Role:** Research Assistant / Algorithm & ML Engineer
@@ -37,10 +42,6 @@ Results-driven ML/Data Engineer with a proven track record in developing, deploy
 **Role:** Research Assistant, Data Engineering
 - Developed a robust web crawler that processed 1M+ news articles, with anti-blocking and relevance filtering algorithms.
 - Automated data extraction and structuring pipelines, ensuring 99% data integrity for large-scale research datasets.
-
-### MSc Thesis: Synthetic Spatio-temporal Car-hailing Traffic Knowledge Graphs
-**Vrije Universiteit Amsterdam & Beijing University of Technology**
-- Developing and benchmarking algorithms for spatio-temporal knowledge graph generation and trajectory classification (GANs, LSTM-AE, SSVM).
 
 ### Bachelor's Thesis: Explainable AI for Heterogeneous IoT Data Processing
 **Vrije Universiteit Amsterdam**
