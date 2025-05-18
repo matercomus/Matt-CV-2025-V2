@@ -1,4 +1,4 @@
-# Mateusz Kędzia (马特) – ML Engineer / Data Engineer
+# Mateusz Kędzia (马特) – ML / Data Engineer
 
 **Contact:** mateusz.kedzia@gmail.com | +86 135 5246 6785  | _Add on WeChat via phone number in app_  
 **Location:** Beijing, China  
