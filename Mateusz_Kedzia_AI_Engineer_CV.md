@@ -1,7 +1,6 @@
 # Mateusz Kędzia (马特) – ML Engineer / Data Engineer
 
-**Contact:** mateusz.kedzia@gmail.com | +86 135 5246 6785  
-_Add on WeChat via phone number in app_  
+**Contact:** mateusz.kedzia@gmail.com | +86 135 5246 6785  | _Add on WeChat via phone number in app_  
 **Location:** Beijing, China  
 **GitHub:** [github.com/matercomus](https://github.com/matercomus)
 
@@ -41,11 +40,11 @@ Results-driven ML/Data Engineer with a proven track record in developing, deploy
 
 ### MSc Thesis: Synthetic Spatio-temporal Car-hailing Traffic Knowledge Graphs
 **Vrije Universiteit Amsterdam & Beijing University of Technology**
-- Developed and benchmarked algorithms for spatio-temporal knowledge graph generation and trajectory classification (GANs, LSTM-AE, SSVM).
+- Developing and benchmarking algorithms for spatio-temporal knowledge graph generation and trajectory classification (GANs, LSTM-AE, SSVM).
 
 ### Bachelor's Thesis: Explainable AI for Heterogeneous IoT Data Processing
 **Vrije Universiteit Amsterdam**
-- Grade: 8.0. Project focused on explainable AI, heterogeneous data processing, and IoT data integration. Led to research assistant role in HedgeIoT.
+- Grade: 8.0. Project focused on explainable AI, heterogeneous data processing, and IoT data integration.
 
 ---
 
@@ -82,9 +81,3 @@ Results-driven ML/Data Engineer with a proven track record in developing, deploy
 ---
 
 **References available upon request.**
-
----
-
-## 🗣️ Testimonial
-> "Matt demonstrated good implementation skills, critical thinking, and impressive project management skills. He is easy to communicate with and always ready to help."  
-> — Dr. Ronald Siebes, Assistant Professor, Vrije Universiteit Amsterdam
