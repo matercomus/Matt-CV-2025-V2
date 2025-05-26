@@ -1,0 +1,239 @@
+<!-- This file is now powered by Vite and local Tailwind CSS. -->
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mateusz Kędzia – 机器学习/数据工程师简历</title>
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    @media print {
+      html, body {
+        margin: 0 !important;
+        padding: 0 !important;
+        box-shadow: none !important;
+        background: #fff !important;
+        color: #000 !important;
+      }
+      body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .print-no-bg {
+        background: #fff !important;
+      }
+      .print-no-shadow {
+        box-shadow: none !important;
+      }
+      .print-stack {
+        flex-direction: column !important;
+      }
+      .print-main {
+        font-size: 1.08rem !important;
+        line-height: 1.7 !important;
+      }
+      .print-section {
+        margin-bottom: 1.5rem !important;
+      }
+      .print-mainpad {
+        padding: 2.5rem !important;
+      }
+      aside {
+        border-radius: 0 !important;
+      }
+      main > section:not(:first-child) {
+        margin-top: 2.5rem !important;
+      }
+      .print-page-break {
+        display: block !important;
+        height: 0 !important;
+        break-before: page !important;
+        page-break-before: always !important;
+      }
+      .sidebar-print-footer {
+        display: flex !important;
+        align-items: flex-end;
+        justify-content: center;
+        height: 7cm;
+        color: #fff;
+        font-size: 0.9rem;
+        padding-bottom: 1cm;
+      }
+    }
+    .sidebar-print-footer {
+      display: none;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900 print:bg-white print:text-black print:pt-0 print:mt-0">
+  <div class="max-w-4xl mx-auto my-0 bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row items-stretch print:w-full print:flex-col print:bg-white print:shadow-none print-no-bg print-no-shadow print:rounded-none min-h-screen print:min-h-screen">
+    <!-- Sidebar/Profile -->
+    <aside class="relative md:w-1/3 p-0 flex flex-col overflow-hidden rounded-lg print:rounded-none print:min-h-screen print:flex-col print:justify-between">
+      <!-- Always-fill background -->
+      <div class="absolute inset-0 bg-gradient-to-b from-blue-700 to-blue-400 z-0"></div>
+      <div class="relative z-10 flex flex-col h-full">
+        <div class="p-10 text-white flex-1 flex flex-col">
+          <img src="../CV_PHOTO_1_NO_BG.png" alt="Mateusz Kędzia 简历照片" class="w-48 h-48 rounded-full shadow-xl mb-6 object-cover border-4 border-white mx-auto print:mx-auto print:mb-4 print:mt-0 print:aspect-square print:w-48 print:h-48 bg-white p-2">
+          <h1 class="text-3xl font-bold mb-2 text-center tracking-tight print:text-left print:mx-0">Mateusz Kędzia <span class="text-base">(马特)</span></h1>
+          <h2 class="text-lg font-semibold mb-6 text-center tracking-wide print:text-left print:mx-0">机器学习 / 数据工程师</h2>
+          <div class="w-full flex flex-col gap-4 mb-8 print:mb-4">
+            <div class="flex items-center gap-2">
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="text-sm">北京, 中国</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:mateusz.kedzia@gmail.com" class="underline text-sm">mateusz.kedzia@gmail.com</a>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fas fa-phone"></i>
+              <span class="text-sm">+86 135 5246 6785</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fab fa-weixin"></i>
+              <span class="text-sm">添加微信请用手机号</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/matercomus" class="underline text-sm">matercomus</a>
+            </div>
+          </div>
+          <div class="mt-10 w-full">
+            <h3 class="font-semibold mb-3 flex items-center gap-2 text-base">
+              <i class="fas fa-globe"></i>
+              语言能力
+            </h3>
+            <ul class="text-sm space-y-1 ml-1">
+              <li class="flex items-center gap-2"><span class="inline-block w-2 h-2 bg-green-300 rounded-full"></span>波兰语（母语）</li>
+              <li class="flex items-center gap-2"><span class="inline-block w-2 h-2 bg-blue-200 rounded-full"></span>英语（流利）</li>
+              <li class="flex items-center gap-2"><span class="inline-block w-2 h-2 bg-green-200 rounded-full"></span>中文（HSK2）</li>
+              <li class="flex items-center gap-2"><span class="inline-block w-2 h-2 bg-yellow-200 rounded-full"></span>西班牙语（基础）</li>
+              <li class="flex items-center gap-2"><span class="inline-block w-2 h-2 bg-pink-200 rounded-full"></span>荷兰语（基础）</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Print-only footer to fill sidebar and add message -->
+      <div class="sidebar-print-footer print:flex print:items-end print:justify-center print:h-40 print:pb-4 hidden">
+        <span>本人同意分享本简历 | I allow sharing this document.</span>
+      </div>
+    </aside>
+    <!-- Main Content -->
+    <main class="flex-1 p-6 text-[15px] print:text-[1.5rem] print:leading-relaxed print:mainpad print-main min-h-full h-full print:h-full">
+      <!-- Profile -->
+      <section class="mb-5 print:mb-6 print-section break-inside-avoid print:pt-10 text-base print:text-[1.1rem]">
+        <h2 class="text-lg font-bold text-blue-700 mb-1">个人简介</h2>
+        <p class="text-gray-800 text-justify text-base print:text-[1.1rem]">具有丰富实践经验的机器学习与数据工程师，擅长构建可扩展的机器学习系统和高效数据管道。在阿姆斯特丹自由大学期间，主导了物联网与地理空间数据的机器学习项目，包括多用户平台和自动化数据流程。我的工作帮助50多位研究人员高效协作，并将模型准确率提升至40%。热衷于用人工智能解决实际问题，期待为创新团队贡献专业能力。</p>
+      </section>
+      <!-- Key Projects & Achievements -->
+      <section class="mb-5 print:mb-6 print-section break-inside-avoid print:pt-10">
+        <h2 class="text-lg font-bold text-blue-700 mb-2">主要项目与成就</h2>
+        <div class="space-y-4">
+          <!-- MSc Thesis -->
+          <div>
+            <h3 class="font-semibold text-base">硕士论文：合成时空网约车交通知识图谱（进行中）</h3>
+            <p class="text-xs text-gray-600 mb-1">阿姆斯特丹自由大学 & 北京工业大学</p>
+            <ul class="list-disc list-inside text-gray-800 text-xs space-y-2">
+              <li><span class="font-semibold">背景：</span>城市交通研究需要先进的时空数据建模与分类方法。</li>
+              <li><span class="font-semibold">任务：</span>开发并评测大规模时空知识图谱生成与轨迹分类算法。</li>
+              <li><span class="font-semibold">行动：</span>设计并实现基于GAN、LSTM-AE和SSVM的模型，进行全面基准测试。</li>
+              <li><span class="font-semibold">结果：</span>推动了城市交通数据分析领域的前沿研究，并为学术论文做出贡献。</li>
+              <li><span class="font-semibold">反思：</span>深化了我在时空建模领域的专业能力，提升了解决开放性研究问题的能力。</li>
+            </ul>
+          </div>
+          <!-- HedgeIoT -->
+          <div>
+            <h3 class="font-semibold text-base">HedgeIoT：物联网数据科学平台与机器学习工程</h3>
+            <p class="text-xs text-gray-600 mb-1">阿姆斯特丹自由大学</p>
+            <ul class="list-disc list-inside text-gray-800 text-xs space-y-2">
+              <li><span class="font-semibold">背景：</span>学校需要一个可扩展的协作物联网与机器学习研究平台。</li>
+              <li><span class="font-semibold">任务：</span>作为研究助理，负责平台设计与部署，实现实时数据流程。</li>
+              <li><span class="font-semibold">行动：</span>搭建并部署了支持50+用户的Docker化JupyterHub平台，设计实时数据采集与机器学习管道，主导会议演示开发。</li>
+              <li><span class="font-semibold">结果：</span>平台实现高效协作与实时数据分析，在HedgeIoT会议展示，支持50+研究人员。</li>
+              <li><span class="font-semibold">反思：</span>提升了大规模系统设计、跨团队沟通和实际机器学习部署能力。</li>
+            </ul>
+          </div>
+          <!-- Web Crawler -->
+          <div>
+            <h3 class="font-semibold text-base">荷兰新闻档案网络爬虫</h3>
+            <p class="text-xs text-gray-600 mb-1">阿姆斯特丹大学</p>
+            <ul class="list-disc list-inside text-gray-800 text-xs space-y-2">
+              <li><span class="font-semibold">背景：</span>大规模研究需高完整性新闻数据集。</li>
+              <li><span class="font-semibold">任务：</span>开发高效网络爬虫，自动化数据提取与结构化。</li>
+              <li><span class="font-semibold">行动：</span>实现反屏蔽与相关性过滤算法，自动化处理超100万新闻。</li>
+              <li><span class="font-semibold">结果：</span>数据完整性达99%，为研究提供可靠数据集。</li>
+              <li><span class="font-semibold">反思：</span>提升了自动化、数据质量保障与大规模数据工程能力。</li>
+            </ul>
+          </div>
+          <!-- Bachelor's Thesis -->
+          <div>
+            <h3 class="font-semibold text-base">本科论文：异构物联网数据可解释AI处理</h3>
+            <p class="text-xs text-gray-600 mb-1">阿姆斯特丹自由大学</p>
+            <ul class="list-disc list-inside text-gray-800 text-xs space-y-2">
+              <li><span class="font-semibold">背景：</span>整合多源物联网数据需透明、可互操作、可解释的AI方案。</li>
+              <li><span class="font-semibold">任务：</span>设计可解释模型与数据管道，统一异构物联网数据。</li>
+              <li><span class="font-semibold">行动：</span>开发设备行为预测模型，基于RDF和SPARQL实现数据集成，确保模型可解释性。</li>
+              <li><span class="font-semibold">结果：</span>交付了稳健的物联网数据集成与预测系统，获得8.0分，展示了可解释AI与语义数据集成的实际价值。</li>
+              <li><span class="font-semibold">反思：</span>夯实了语义数据集成、时序预测与AI透明性基础。</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="print-page-break"></div>
+      <!-- Technical Skills -->
+      <section class="mb-5 print:mb-6 print-section break-inside-avoid print:pt-10">
+        <h2 class="text-lg font-bold text-blue-700 mb-2">技术技能</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+          <ul class="space-y-0.5">
+            <li><span class="font-semibold">编程：</span>Python（高级）、Bash、SQL</li>
+            <li><span class="font-semibold">机器学习与数据：</span>PyTorch、TensorFlow、scikit-learn、XGBoost、Pandas、Polars、NumPy、Pydantic</li>
+            <li><span class="font-semibold">Web/API：</span>FastAPI、Flask、Django、Streamlit</li>
+            <li><span class="font-semibold">NLP与大模型：</span>Transformers（自研）、Hugging Face（语音检测、图像转LaTeX）、spaCy、NLTK、LangChain</li>
+          </ul>
+          <ul class="space-y-0.5">
+            <li><span class="font-semibold">数据工程：</span>GeoPandas、NetworkX、OSMnx、RDFlib、GraphDB、JupyterHub、Grafana</li>
+            <li><span class="font-semibold">DevOps：</span>Docker、Docker Compose、NGINX、CI/CD、Linux（6年以上日常使用）</li>
+            <li><span class="font-semibold">远程/高级：</span>NVIM/LunarVim、Python多进程/多线程、LaTeX、Markdown</li>
+          </ul>
+        </div>
+      </section>
+      <!-- Leadership & Communication -->
+      <section class="mb-5 print:mb-6 print-section break-inside-avoid print:pt-10">
+        <h2 class="text-lg font-bold text-blue-700 mb-2">领导力与沟通</h2>
+        <ul class="list-disc list-inside text-gray-800 text-xs space-y-2">
+          <li>担任理学院学生会沟通委员会主席：主持会议、分配任务、协调沟通。</li>
+          <li>带领实践课程并指导10+名学生参与机器学习与数据项目。</li>
+        </ul>
+      </section>
+      <!-- Selected Coursework -->
+      <section class="mb-5 print:mb-6 print-section break-inside-avoid print:pt-10">
+        <h2 class="text-lg font-bold text-blue-700 mb-2">核心课程</h2>
+        <ul class="list-disc list-inside text-gray-800 text-xs space-y-2">
+          <li><span class="font-semibold">深度学习：</span>自定义CNN、DNN实现</li>
+          <li><span class="font-semibold">自然语言处理：</span>Transformers、Hugging Face、高级NLP</li>
+          <li><span class="font-semibold">数据挖掘技术：</span>XGBoost排序、Kaggle竞赛</li>
+          <li><span class="font-semibold">强化学习项目：</span>数据中心优化RL</li>
+          <li><span class="font-semibold">交流机器人：</span>基于OpenAI API的对话代理，获班级竞赛第一名（1/8队）</li>
+          <li><span class="font-semibold">进化计算：</span>自定义进化算法用于游戏AI</li>
+        </ul>
+      </section>
+      <!-- Education -->
+      <section class="mb-5 print:mb-6 print-section break-inside-avoid print:pt-10 text-sm print:text-[1rem]">
+        <h2 class="text-lg font-bold text-blue-700 mb-2">教育背景</h2>
+        <ul class="list-none space-y-2">
+          <li>
+            <span class="font-semibold">人工智能硕士</span> <span class="text-gray-600">（2023年9月–2025年8月）</span><br>
+            阿姆斯特丹自由大学 & 北京工业大学
+          </li>
+          <li>
+            <span class="font-semibold">人工智能学士</span> <span class="text-gray-600">（2019年9月–2023年8月）</span><br>
+            阿姆斯特丹自由大学
+          </li>
+        </ul>
+      </section>
+    </main>
+  </div>
+  <div class="hidden print:block print:h-24"></div>
+</body>
+</html> 
