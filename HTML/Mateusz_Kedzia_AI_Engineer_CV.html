@@ -38,6 +38,12 @@
       .print-mainpad {
         padding: 2.5rem !important;
       }
+      aside {
+        border-radius: 0 !important;
+      }
+      main > section:not(:first-child) {
+        margin-top: 2.5rem !important;
+      }
     }
   </style>
 </head>
@@ -89,11 +95,11 @@
       </div>
     </aside>
     <!-- Main Content -->
-    <main class="flex-1 p-6 text-[15px] print:text-[1.05rem] print:leading-relaxed print:mainpad print-main min-h-full h-full print:h-full print:pb-24">
+    <main class="flex-1 p-6 text-[15px] print:text-[1.5rem] print:leading-relaxed print:mainpad print-main min-h-full h-full print:h-full">
       <!-- Profile -->
-      <section class="mb-5 print:mb-6 print-section break-inside-avoid print:pt-10">
+      <section class="mb-5 print:mb-6 print-section break-inside-avoid print:pt-10 text-base print:text-[1.1rem]">
         <h2 class="text-lg font-bold text-blue-700 mb-1">Profile</h2>
-        <p class="text-gray-800 text-justify">Machine Learning and Data Engineer with hands-on experience building scalable ML systems and robust data pipelines. At Vrije Universiteit Amsterdam, I led projects advancing machine learning for IoT and geospatial data, including multi-user platforms and automated data workflows. My work enabled 50+ researchers to collaborate efficiently and improved model accuracy by up to 40%. I am passionate about leveraging AI to solve real-world problems and eager to contribute my expertise to innovative teams.</p>
+        <p class="text-gray-800 text-justify text-base print:text-[1.1rem]">Machine Learning and Data Engineer with hands-on experience building scalable ML systems and robust data pipelines. At Vrije Universiteit Amsterdam, I led projects advancing machine learning for IoT and geospatial data, including multi-user platforms and automated data workflows. My work enabled 50+ researchers to collaborate efficiently and improved model accuracy by up to 40%. I am passionate about leveraging AI to solve real-world problems and eager to contribute my expertise to innovative teams.</p>
       </section>
       <!-- Key Projects & Achievements -->
       <section class="mb-5 print:mb-6 print-section break-inside-avoid print:pt-10">
@@ -103,7 +109,7 @@
           <div>
             <h3 class="font-semibold text-base">MSc Thesis: Synthetic Spatio-temporal Car-hailing Traffic Knowledge Graphs (Ongoing)</h3>
             <p class="text-xs text-gray-600 mb-1">Vrije Universiteit Amsterdam & Beijing University of Technology</p>
-            <ul class="list-disc list-inside text-gray-800 text-xs space-y-0.5">
+            <ul class="list-disc list-inside text-gray-800 text-xs space-y-2">
               <li><span class="font-semibold">Situation:</span> Urban mobility research requires advanced methods for modeling and classifying spatio-temporal data.</li>
               <li><span class="font-semibold">Task:</span> I am developing and benchmarking algorithms for generating large-scale spatio-temporal knowledge graphs and classifying trajectories.</li>
               <li><span class="font-semibold">Action:</span> I am designing and implementing models using GANs, LSTM-AE, and SSVM, and conducting extensive benchmarking.</li>
@@ -115,7 +121,7 @@
           <div>
             <h3 class="font-semibold text-base">HedgeIoT: IoT Data Science Platform & ML Engineering</h3>
             <p class="text-xs text-gray-600 mb-1">Vrije Universiteit Amsterdam</p>
-            <ul class="list-disc list-inside text-gray-800 text-xs space-y-0.5">
+            <ul class="list-disc list-inside text-gray-800 text-xs space-y-2">
               <li><span class="font-semibold">Situation:</span> The university needed a scalable platform for collaborative IoT and ML research.</li>
               <li><span class="font-semibold">Task:</span> As a Research Assistant, I was responsible for designing and deploying the platform, enabling real-time data workflows.</li>
               <li><span class="font-semibold">Action:</span> I built and deployed a dockerized, multi-user JupyterHub platform for 50+ users, designed real-time data ingestion and ML pipelines, and led demo development for conferences.</li>
@@ -127,7 +133,7 @@
           <div>
             <h3 class="font-semibold text-base">Web Crawler for Dutch News Archives</h3>
             <p class="text-xs text-gray-600 mb-1">University of Amsterdam</p>
-            <ul class="list-disc list-inside text-gray-800 text-xs space-y-0.5">
+            <ul class="list-disc list-inside text-gray-800 text-xs space-y-2">
               <li><span class="font-semibold">Situation:</span> Large-scale research required access to a comprehensive, high-integrity news dataset.</li>
               <li><span class="font-semibold">Task:</span> I was tasked with developing a robust web crawler and automating data extraction and structuring.</li>
               <li><span class="font-semibold">Action:</span> I implemented anti-blocking and relevance filtering algorithms, and automated the data pipeline to process over 1M news articles.</li>
@@ -139,7 +145,7 @@
           <div>
             <h3 class="font-semibold text-base">Bachelor's Thesis: Explainable AI for Heterogeneous IoT Data Processing</h3>
             <p class="text-xs text-gray-600 mb-1">Vrije Universiteit Amsterdam</p>
-            <ul class="list-disc list-inside text-gray-800 text-xs space-y-0.5">
+            <ul class="list-disc list-inside text-gray-800 text-xs space-y-2">
               <li><span class="font-semibold">Situation:</span> Integrating diverse IoT data sources required transparent, interoperable, and interpretable AI solutions.</li>
               <li><span class="font-semibold">Task:</span> I set out to design explainable models and data pipelines that could unify heterogeneous IoT data using linked data principles.</li>
               <li><span class="font-semibold">Action:</span> Developed and implemented ML models for forecasting device behavior, integrated data using RDF and SPARQL queries, and ensured model interpretability for end users.</li>
@@ -169,7 +175,7 @@
       <!-- Leadership & Communication -->
       <section class="mb-5 print:mb-6 print-section break-inside-avoid print:pt-10">
         <h2 class="text-lg font-bold text-blue-700 mb-2">Leadership & Communication</h2>
-        <ul class="list-disc list-inside text-gray-800 text-xs space-y-0.5">
+        <ul class="list-disc list-inside text-gray-800 text-xs space-y-2">
           <li>Chaired Communication Committee, Faculty of Science Student Council: led meetings, delegated work, and coordinated communication.</li>
           <li>Led practical sessions and mentored 10+ students in ML and data projects.</li>
         </ul>
@@ -177,7 +183,7 @@
       <!-- Selected Coursework -->
       <section class="mb-5 print:mb-6 print-section break-inside-avoid print:pt-10">
         <h2 class="text-lg font-bold text-blue-700 mb-2">Selected Coursework</h2>
-        <ul class="list-disc list-inside text-gray-800 text-xs space-y-0.5">
+        <ul class="list-disc list-inside text-gray-800 text-xs space-y-2">
           <li><span class="font-semibold">Deep Learning:</span> Custom CNNs, DNNs from scratch</li>
           <li><span class="font-semibold">Natural Language Processing:</span> Transformers, Hugging Face, advanced NLP</li>
           <li><span class="font-semibold">Data Mining Techniques:</span> XGBoost ranking, Kaggle competition</li>
@@ -186,12 +192,22 @@
           <li><span class="font-semibold">Evolutionary Computing:</span> Custom evolutionary algorithms for game AI</li>
         </ul>
       </section>
-      <!-- References -->
-      <section class="print-section break-inside-avoid break-after-page print:pt-10">
-        <h2 class="text-lg font-bold text-blue-700 mb-2">References</h2>
-        <p class="text-gray-800 text-xs">References available upon request.</p>
+      <!-- Education -->
+      <section class="mb-5 print:mb-6 print-section break-inside-avoid print:pt-10 text-sm print:text-[1rem]">
+        <h2 class="text-lg font-bold text-blue-700 mb-2">Education</h2>
+        <ul class="list-none space-y-2">
+          <li>
+            <span class="font-semibold">MSc Artificial Intelligence</span> <span class="text-gray-600">(09.2023–08.2025)</span><br>
+            Vrije Universiteit Amsterdam & Beijing University of Technology
+          </li>
+          <li>
+            <span class="font-semibold">BSc Artificial Intelligence</span> <span class="text-gray-600">(09.2019–08.2023)</span><br>
+            Vrije Universiteit Amsterdam
+          </li>
+        </ul>
       </section>
     </main>
   </div>
+  <div class="hidden print:block print:h-24"></div>
 </body>
 </html>
