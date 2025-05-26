@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mateusz Kędzia – ML / Data Engineer CV</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    @media print {
+      html, body {
+        margin: 0 !important;
+        padding: 0 !important;
+        box-shadow: none !important;
+        background: #fff !important;
+        color: #000 !important;
+      }
+      body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .print-no-bg {
+        background: #fff !important;
+      }
+      .print-no-shadow {
+        box-shadow: none !important;
+      }
+      .print-stack {
+        flex-direction: column !important;
+      }
+      .print-main {
+        font-size: 1.08rem !important;
+        line-height: 1.7 !important;
+      }
+      .print-section {
+        margin-bottom: 1.5rem !important;
+      }
+      .print-mainpad {
+        padding: 2.5rem !important;
+      }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900 print:bg-white print:text-black print:pt-0 print:mt-0">
+  <div class="max-w-4xl mx-auto my-0 bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row items-stretch print:w-full print:flex-col print:bg-white print:shadow-none print-no-bg print-no-shadow print:rounded-none min-h-screen print:min-h-screen">
+    <!-- Sidebar/Profile -->
+    <aside class="relative md:w-1/3 p-0 flex flex-col overflow-hidden">
+      <!-- Always-fill background -->
+      <div class="absolute inset-0 bg-gradient-to-b from-blue-700 to-blue-400 z-0"></div>
+      <div class="relative z-10 p-10 text-white">
+        <img src="../CV_PHOTO_1.jpg" alt="Mateusz Kędzia CV Photo" class="w-40 h-40 rounded-full shadow-xl mb-6 object-cover border-4 border-white mx-auto print:mx-auto print:mb-4 print:mt-0">
+        <h1 class="text-3xl font-bold mb-2 text-center tracking-tight print:text-left print:mx-0">Mateusz Kędzia <span class="text-base">(马特)</span></h1>
+        <h2 class="text-lg font-semibold mb-6 text-center tracking-wide print:text-left print:mx-0">ML / Data Engineer</h2>
+        <div class="w-full flex flex-col gap-4 mb-8 print:mb-4">
+          <div class="flex items-center gap-2">
+            <i class="fas fa-map-marker-alt"></i>
+            <span class="text-sm">Beijing, China</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:mateusz.kedzia@gmail.com" class="underline text-sm">mateusz.kedzia@gmail.com</a>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fas fa-phone"></i>
+            <span class="text-sm">+86 135 5246 6785</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fab fa-weixin"></i>
+            <span class="text-sm">Add via phone in app</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/matercomus" class="underline text-sm">matercomus</a>
+          </div>
+        </div>
+        <div class="mt-10 w-full">
+          <h3 class="font-semibold mb-3 flex items-center gap-2 text-base">
+            <i class="fas fa-globe"></i>
+            Languages
+          </h3>
+          <ul class="text-sm space-y-1 ml-1">
+            <li class="flex items-center gap-2"><span class="inline-block w-2 h-2 bg-green-300 rounded-full"></span>Polish (Native)</li>
+            <li class="flex items-center gap-2"><span class="inline-block w-2 h-2 bg-blue-200 rounded-full"></span>English (Fluent)</li>
+            <li class="flex items-center gap-2"><span class="inline-block w-2 h-2 bg-green-200 rounded-full"></span>Chinese (HSK2)</li>
+            <li class="flex items-center gap-2"><span class="inline-block w-2 h-2 bg-yellow-200 rounded-full"></span>Spanish (Basic)</li>
+            <li class="flex items-center gap-2"><span class="inline-block w-2 h-2 bg-pink-200 rounded-full"></span>Dutch (Basic)</li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <!-- Main Content -->
+    <main class="flex-1 p-6 text-[15px] print:text-base print:leading-relaxed print:mainpad print-main min-h-full h-full print:h-full">
+      <!-- Profile -->
+      <section class="mb-5 print:mb-6 print-section">
+        <h2 class="text-lg font-bold text-blue-700 mb-1">Profile</h2>
+        <p class="text-gray-800 text-justify">Machine Learning and Data Engineer with hands-on experience building scalable ML systems and robust data pipelines. At Vrije Universiteit Amsterdam, I led projects advancing machine learning for IoT and geospatial data, including multi-user platforms and automated data workflows. My work enabled 50+ researchers to collaborate efficiently and improved model accuracy by up to 40%. I am passionate about leveraging AI to solve real-world problems and eager to contribute my expertise to innovative teams.</p>
+      </section>
+      <!-- Key Projects & Achievements -->
+      <section class="mb-5 print:mb-6 print-section">
+        <h2 class="text-lg font-bold text-blue-700 mb-2">Key Projects & Achievements</h2>
+        <div class="space-y-4">
+          <!-- MSc Thesis -->
+          <div>
+            <h3 class="font-semibold text-base">MSc Thesis: Synthetic Spatio-temporal Car-hailing Traffic Knowledge Graphs (Ongoing)</h3>
+            <p class="text-xs text-gray-600 mb-1">Vrije Universiteit Amsterdam & Beijing University of Technology</p>
+            <ul class="list-disc list-inside text-gray-800 text-xs space-y-0.5">
+              <li><span class="font-semibold">Situation:</span> Urban mobility research requires advanced methods for modeling and classifying spatio-temporal data.</li>
+              <li><span class="font-semibold">Task:</span> I am developing and benchmarking algorithms for generating large-scale spatio-temporal knowledge graphs and classifying trajectories.</li>
+              <li><span class="font-semibold">Action:</span> I am designing and implementing models using GANs, LSTM-AE, and SSVM, and conducting extensive benchmarking.</li>
+              <li><span class="font-semibold">Result:</span> The research is advancing the state-of-the-art in urban mobility data analysis and contributing to ongoing academic publications.</li>
+              <li><span class="font-semibold">Reflection:</span> This project is deepening my expertise in spatio-temporal modeling and reinforcing my ability to tackle open-ended research problems.</li>
+            </ul>
+          </div>
+          <!-- HedgeIoT -->
+          <div>
+            <h3 class="font-semibold text-base">HedgeIoT: IoT Data Science Platform & ML Engineering</h3>
+            <p class="text-xs text-gray-600 mb-1">Vrije Universiteit Amsterdam</p>
+            <ul class="list-disc list-inside text-gray-800 text-xs space-y-0.5">
+              <li><span class="font-semibold">Situation:</span> The university needed a scalable platform for collaborative IoT and ML research.</li>
+              <li><span class="font-semibold">Task:</span> As a Research Assistant, I was responsible for designing and deploying the platform, enabling real-time data workflows.</li>
+              <li><span class="font-semibold">Action:</span> I built and deployed a dockerized, multi-user JupyterHub platform for 50+ users, designed real-time data ingestion and ML pipelines, and led demo development for conferences.</li>
+              <li><span class="font-semibold">Result:</span> The platform enabled efficient collaboration, real-time data analysis, and was showcased at the HedgeIoT conference, supporting 50+ researchers.</li>
+              <li><span class="font-semibold">Reflection:</span> This project strengthened my skills in scalable system design, cross-team communication, and real-world ML deployment.</li>
+            </ul>
+          </div>
+          <!-- Web Crawler -->
+          <div>
+            <h3 class="font-semibold text-base">Web Crawler for Dutch News Archives</h3>
+            <p class="text-xs text-gray-600 mb-1">University of Amsterdam</p>
+            <ul class="list-disc list-inside text-gray-800 text-xs space-y-0.5">
+              <li><span class="font-semibold">Situation:</span> Large-scale research required access to a comprehensive, high-integrity news dataset.</li>
+              <li><span class="font-semibold">Task:</span> I was tasked with developing a robust web crawler and automating data extraction and structuring.</li>
+              <li><span class="font-semibold">Action:</span> I implemented anti-blocking and relevance filtering algorithms, and automated the data pipeline to process over 1M news articles.</li>
+              <li><span class="font-semibold">Result:</span> Achieved 99% data integrity and provided a reliable dataset for research.</li>
+              <li><span class="font-semibold">Reflection:</span> This experience enhanced my skills in automation, data quality assurance, and large-scale data engineering.</li>
+            </ul>
+          </div>
+          <!-- Bachelor's Thesis -->
+          <div>
+            <h3 class="font-semibold text-base">Bachelor's Thesis: Explainable AI for Heterogeneous IoT Data Processing</h3>
+            <p class="text-xs text-gray-600 mb-1">Vrije Universiteit Amsterdam</p>
+            <ul class="list-disc list-inside text-gray-800 text-xs space-y-0.5">
+              <li><span class="font-semibold">Situation:</span> Integrating diverse IoT data sources required transparent, interoperable, and interpretable AI solutions.</li>
+              <li><span class="font-semibold">Task:</span> I set out to design explainable models and data pipelines that could unify heterogeneous IoT data using linked data principles.</li>
+              <li><span class="font-semibold">Action:</span> Developed and implemented ML models for forecasting device behavior, integrated data using RDF and SPARQL queries, and ensured model interpretability for end users.</li>
+              <li><span class="font-semibold">Result:</span> Delivered a robust, explainable system for IoT data integration and forecasting, earning a grade of 8.0 and demonstrating the value of linked data and explainable AI in practical IoT scenarios.</li>
+              <li><span class="font-semibold">Reflection:</span> This project gave me a strong foundation in semantic data integration, ML for time series forecasting, and the importance of transparency and interoperability in real-world AI systems.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Technical Skills -->
+      <section class="mb-5 print:mb-6 print-section">
+        <h2 class="text-lg font-bold text-blue-700 mb-2">Technical Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+          <ul class="space-y-0.5">
+            <li><span class="font-semibold">Programming:</span> Python (advanced), Bash, SQL</li>
+            <li><span class="font-semibold">ML & Data:</span> PyTorch, TensorFlow, scikit-learn, XGBoost, Pandas, Polars, NumPy, Pydantic</li>
+            <li><span class="font-semibold">Web/API:</span> FastAPI, Flask, Django, Streamlit</li>
+            <li><span class="font-semibold">NLP & LLMs:</span> Transformers (from scratch), Hugging Face (voice detection, image-to-LaTeX), spaCy, NLTK, LangChain</li>
+          </ul>
+          <ul class="space-y-0.5">
+            <li><span class="font-semibold">Data Engineering:</span> GeoPandas, NetworkX, OSMnx, RDFlib, GraphDB, JupyterHub, Grafana</li>
+            <li><span class="font-semibold">DevOps:</span> Docker, Docker Compose, NGINX, CI/CD, Linux (daily user, 6+ years)</li>
+            <li><span class="font-semibold">Remote/Advanced:</span> NVIM/LunarVim, Python multiprocessing/threading, LaTeX, Markdown</li>
+          </ul>
+        </div>
+      </section>
+      <!-- Leadership & Communication -->
+      <section class="mb-5 print:mb-6 print-section">
+        <h2 class="text-lg font-bold text-blue-700 mb-2">Leadership & Communication</h2>
+        <ul class="list-disc list-inside text-gray-800 text-xs space-y-0.5">
+          <li>Chaired Communication Committee, Faculty of Science Student Council: led meetings, delegated work, and coordinated communication.</li>
+          <li>Led practical sessions and mentored 10+ students in ML and data projects.</li>
+        </ul>
+      </section>
+      <!-- Selected Coursework -->
+      <section class="mb-5 print:mb-6 print-section">
+        <h2 class="text-lg font-bold text-blue-700 mb-2">Selected Coursework</h2>
+        <ul class="list-disc list-inside text-gray-800 text-xs space-y-0.5">
+          <li><span class="font-semibold">Deep Learning:</span> Custom CNNs, DNNs from scratch</li>
+          <li><span class="font-semibold">Natural Language Processing:</span> Transformers, Hugging Face, advanced NLP</li>
+          <li><span class="font-semibold">Data Mining Techniques:</span> XGBoost ranking, Kaggle competition</li>
+          <li><span class="font-semibold">Project Reinforcement Learning:</span> RL for data center optimization</li>
+          <li><span class="font-semibold">Communicative Robots:</span> Built OpenAI API conversational agent, won class competition (1st/8 teams)</li>
+          <li><span class="font-semibold">Evolutionary Computing:</span> Custom evolutionary algorithms for game AI</li>
+        </ul>
+      </section>
+      <!-- References -->
+      <section class="print-section">
+        <h2 class="text-lg font-bold text-blue-700 mb-2">References</h2>
+        <p class="text-gray-800 text-xs">References available upon request.</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
