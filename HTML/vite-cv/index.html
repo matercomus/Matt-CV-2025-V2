@@ -1,175 +1,134 @@
-<!-- This file is now powered by Vite and local Tailwind CSS. -->
 <!DOCTYPE html>
-<html lang="zh">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mateusz Kędzia – 机器学习/数据工程师简历</title>
-  <link rel="stylesheet" href="/src/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body class="bg-gray-50 text-gray-900">
-  <div class="max-w-4xl mx-auto my-0 bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row items-stretch min-h-screen print:grid print:grid-cols-[9.5cm_auto] print:gap-2 print:w-full print:min-h-0 print:shadow-none print:rounded-none">
-    <!-- Sidebar/Profile -->
-    <aside class="relative md:w-1/3 p-0 flex flex-col overflow-hidden rounded-lg print:rounded-none print:min-h-full print:h-auto  print:w-[8cm] print:col-span-1">
-      <!-- Always-fill background -->
-      <div class="absolute inset-0 bg-gradient-to-b from-blue-700 to-blue-400 z-0"></div>
-      <div class="relative z-10 flex flex-col h-full">
-        <div class="p-10 text-white flex-1 flex flex-col">
-          <img src="/CV_PHOTO_1_NO_BG.png" alt="Mateusz Kędzia 简历照片" class="w-48 h-48 rounded-full shadow-xl mb-6 object-cover mx-auto bg-white p-2">
-          <h1 class="text-3xl font-bold mb-2 text-center tracking-tight">Mateusz Kędzia <span class="text-base">(马特)</span></h1>
-          <h2 class="text-lg font-semibold mb-6 text-center tracking-wide">机器学习 / 数据工程师</h2>
-          <div class="w-full flex flex-col gap-4 mb-8">
-            <div class="flex items-center gap-2">
-              <i class="fas fa-map-marker-alt"></i>
-              <span class="text-sm">北京, 中国</span>
-            </div>
-            <div class="flex items-center gap-2">
-              <i class="fas fa-envelope"></i>
-              <a href="mailto:mateusz.kedzia@gmail.com" class="underline text-sm">mateusz.kedzia@gmail.com</a>
-            </div>
-            <div class="flex items-center gap-2">
-              <i class="fas fa-phone"></i>
-              <span class="text-sm">+86 135 5246 6785</span>
-            </div>
-            <div class="flex items-center gap-2">
-              <i class="fab fa-weixin"></i>
-              <span class="text-sm">添加微信请用手机号</span>
-            </div>
-            <div class="flex items-center gap-2">
-              <i class="fab fa-github"></i>
-              <a href="https://github.com/matercomus" class="underline text-sm">matercomus</a>
-            </div>
-          </div>
-          <div class="mt-10 w-full">
-            <h3 class="font-semibold mb-3 flex items-center gap-2 text-base">
-              <i class="fas fa-globe"></i>
-              语言能力
-            </h3>
-            <ul class="text-sm space-y-1 ml-1">
-              <li class="flex items-center gap-2"><span class="inline-block w-2 h-2 bg-green-300 rounded-full"></span>波兰语（母语）</li>
-              <li class="flex items-center gap-2"><span class="inline-block w-2 h-2 bg-blue-200 rounded-full"></span>英语（流利）</li>
-              <li class="flex items-center gap-2"><span class="inline-block w-2 h-2 bg-green-200 rounded-full"></span>中文（HSK2）</li>
-              <li class="flex items-center gap-2"><span class="inline-block w-2 h-2 bg-yellow-200 rounded-full"></span>西班牙语（基础）</li>
-              <li class="flex items-center gap-2"><span class="inline-block w-2 h-2 bg-pink-200 rounded-full"></span>荷兰语（基础）</li>
-            </ul>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mateusz Kedzia - CV</title>
+    <link href="/src/style.css" rel="stylesheet">
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  </head>
+  <body class="bg-white text-gray-900 font-sans">
+    <div class="max-w-4xl mx-auto py-10 px-6">
+      <div class="flex flex-col md:flex-row md:items-center md:space-x-8">
+        <img src="/img75.jpg" alt="Profile Photo" class="w-40 h-48 object-cover rounded shadow-md mb-6 md:mb-0" />
+        <div class="flex-1">
+          <h1 class="text-4xl font-bold mb-2">Mateusz Kedzia</h1>
+          <div class="flex flex-col md:flex-row md:space-x-8 text-gray-600 text-lg">
+            <div class="flex items-center mb-1 md:mb-0"><i class="fa-solid fa-phone mr-2"></i>13552466785</div>
+            <div class="flex items-center"><i class="fa-solid fa-envelope mr-2"></i>mateusz.kedzia@gmail.com</div>
           </div>
         </div>
       </div>
-    </aside>
-    <!-- Main Content -->
-    <main class="flex-1 p-6 text-base md:text-lg leading-relaxed min-h-full h-full print:h-full print:col-span-1">
-      <!-- Profile -->
-      <section class="mb-5 ">
-        <h2 class="text-xl md:text-2xl font-bold text-blue-700 mb-4">个人简介</h2>
-        <p class="text-gray-800 text-justify text-base">具有丰富实践经验的机器学习与数据工程师，擅长构建可扩展的机器学习系统和高效数据管道。在阿姆斯特丹自由大学期间，主导了物联网与地理空间数据的机器学习项目，包括多用户平台和自动化数据流程。我的工作帮助50多位研究人员高效协作，并将模型准确率提升至40%。热衷于用人工智能解决实际问题，期待为创新团队贡献专业能力。</p>
-      </section>
-      <!-- Key Projects & Achievements -->
-      <section class="mb-5 ">
-        <h2 class="text-xl md:text-2xl font-bold text-blue-700 mb-4">主要项目与成就</h2>
-        <div class="space-y-4">
-          <!-- MSc Thesis -->
-          <div>
-            <h3 class="font-semibold text-base">硕士论文：合成时空网约车交通知识图谱（进行中）</h3>
-            <p class="text-xs text-gray-600 mb-1">阿姆斯特丹自由大学 & 北京工业大学</p>
-            <ul class="list-disc list-inside text-gray-800 text-xs md:text-sm space-y-2">
-              <li><span class="font-semibold">背景：</span>城市交通研究需要先进的时空数据建模与分类方法。</li>
-              <li><span class="font-semibold">任务：</span>开发并评测大规模时空知识图谱生成与轨迹分类算法。</li>
-              <li><span class="font-semibold">行动：</span>设计并实现基于GAN、LSTM-AE和SSVM的模型，进行全面基准测试。</li>
-              <li><span class="font-semibold">结果：</span>推动了城市交通数据分析领域的前沿研究，并为学术论文做出贡献。</li>
-              <li><span class="font-semibold">反思：</span>深化了我在时空建模领域的专业能力，提升了解决开放性研究问题的能力。</li>
-            </ul>
+      <div class="mt-10 space-y-8">
+        <!-- Job Intention -->
+        <section>
+          <div class="flex items-center text-xl font-semibold mb-2"><i class="fa-solid fa-bullseye mr-2"></i>Job Intention</div>
+          <div class="text-gray-700 ml-6">Job Type: Campus Recruitment</div>
+        </section>
+        <!-- Education -->
+        <section>
+          <div class="flex items-center text-xl font-semibold mb-2"><i class="fa-solid fa-graduation-cap mr-2"></i>Education Background</div>
+          <div class="ml-6 space-y-2">
+            <div>
+              <span class="font-semibold">2023.09 - 2025.08</span> | Vrije Universiteit Amsterdam<br/>
+              Artificial Intelligence, <span class="italic">Master's</span>
+            </div>
+            <div>
+              <span class="font-semibold">2019.09 - 2023.08</span> | Vrije Universiteit Amsterdam<br/>
+              Artificial Intelligence, <span class="italic">Bachelor's</span>
+            </div>
           </div>
-          <!-- HedgeIoT -->
-          <div>
-            <h3 class="font-semibold text-base">HedgeIoT：物联网数据科学平台与机器学习工程</h3>
-            <p class="text-xs text-gray-600 mb-1">阿姆斯特丹自由大学</p>
-            <ul class="list-disc list-inside text-gray-800 text-xs md:text-sm space-y-2">
-              <li><span class="font-semibold">背景：</span>学校需要一个可扩展的协作物联网与机器学习研究平台。</li>
-              <li><span class="font-semibold">任务：</span>作为研究助理，负责平台设计与部署，实现实时数据流程。</li>
-              <li><span class="font-semibold">行动：</span>搭建并部署了支持50+用户的Docker化JupyterHub平台，设计实时数据采集与机器学习管道，主导会议演示开发。</li>
-              <li><span class="font-semibold">结果：</span>平台实现高效协作与实时数据分析，在HedgeIoT会议展示，支持50+研究人员。</li>
-              <li><span class="font-semibold">反思：</span>提升了大规模系统设计、跨团队沟通和实际机器学习部署能力。</li>
-            </ul>
+        </section>
+        <!-- Self-Assessment -->
+        <section>
+          <div class="flex items-center text-xl font-semibold mb-2"><i class="fa-solid fa-user-check mr-2"></i>Self-Assessment</div>
+          <div class="ml-6 text-gray-700">An experienced machine learning and data engineer with rich practical experience, specializing in building scalable machine learning systems and efficient data pipelines. During my time at Vrije Universiteit Amsterdam, I led machine learning projects involving IoT and geospatial data, including multi-user platforms and automated data workflows. My work helped over 50 researchers collaborate efficiently and improved model accuracy to 40%. I am passionate about using artificial intelligence to solve real-world problems and look forward to contributing my professional capabilities to innovative teams.</div>
+        </section>
+        <!-- Major Projects and Achievements -->
+        <section>
+          <div class="flex items-center text-xl font-semibold mb-2"><i class="fa-solid fa-trophy mr-2"></i>Major Projects and Achievements</div>
+          <div class="ml-6 space-y-4">
+            <div>
+              <span class="font-bold">Master's Thesis: Synthetic Spatio-Temporal Ride-Hailing Traffic Knowledge Graph (In Progress)</span> (2024.07-2025.03)<br/>
+              Vrije Universiteit Amsterdam & Beijing University of Technology<br/>
+              <span class="text-gray-700">Background:</span> Urban transportation research requires advanced spatio-temporal data modeling and classification methods.<br/>
+              <span class="text-gray-700">Task:</span> Develop and evaluate large-scale spatio-temporal knowledge graph generation and trajectory classification algorithms.<br/>
+              <span class="text-gray-700">Action:</span> Designed and implemented models based on GAN, LSTM-AE, and SSVM, conducting comprehensive benchmark testing.<br/>
+              <span class="text-gray-700">Result:</span> Advanced cutting-edge research in urban transportation data analysis and contributed to academic papers.<br/>
+              <span class="text-gray-700">Reflection:</span> Deepened my professional capabilities in spatio-temporal modeling and enhanced my ability to solve open research problems.
+            </div>
+            <div>
+              <span class="font-bold">HedgeIoT: IoT Data Science Platform and Machine Learning Engineering</span><br/>
+              Vrije Universiteit Amsterdam (2024.07-2024.09)<br/>
+              <span class="text-gray-700">Background:</span> The university needed a scalable collaborative IoT and machine learning research platform.<br/>
+              <span class="text-gray-700">Task:</span> As a research assistant, responsible for platform design and deployment, implementing real-time data workflows.<br/>
+              <span class="text-gray-700">Action:</span> Built and deployed a Dockerized JupyterHub platform supporting 50+ users, designed real-time data collection and machine learning pipelines, led conference demonstration development.<br/>
+              <span class="text-gray-700">Result:</span> Platform achieved efficient collaboration and real-time data analysis, showcased at HedgeIoT conference, supporting 50+ researchers.<br/>
+              <span class="text-gray-700">Reflection:</span> Enhanced large-scale system design, cross-team communication, and practical machine learning deployment capabilities.
+            </div>
+            <div>
+              <span class="font-bold">Dutch News Archive Web Crawler</span><br/>
+              University of Amsterdam (2022.02-2025.03)<br/>
+              <span class="text-gray-700">Background:</span> Large-scale research requires high-integrity news datasets.<br/>
+              <span class="text-gray-700">Task:</span> Develop efficient web crawler for automated data extraction and structuring.<br/>
+              <span class="text-gray-700">Action:</span> Implemented anti-blocking and relevance filtering algorithms, automated processing of over 1 million news articles.<br/>
+              <span class="text-gray-700">Result:</span> Achieved 99% data integrity, providing reliable datasets for research.<br/>
+              <span class="text-gray-700">Reflection:</span> Enhanced automation, data quality assurance, and large-scale data engineering capabilities.
+            </div>
+            <div>
+              <span class="font-bold">Bachelor's Thesis: Explainable AI Processing of Heterogeneous IoT Data</span><br/>
+              Vrije Universiteit Amsterdam<br/>
+              <span class="text-gray-700">Background:</span> Integrating multi-source IoT data requires transparent, interoperable, and explainable AI solutions.<br/>
+              <span class="text-gray-700">Task:</span> Design explainable models and data pipelines to unify heterogeneous IoT data.<br/>
+              <span class="text-gray-700">Action:</span> Developed device behavior prediction models, implemented data integration based on RDF and SPARQL, ensuring model explainability.<br/>
+              <span class="text-gray-700">Result:</span> Delivered robust IoT data integration and prediction system, achieved 8.0 grade, demonstrating practical value of explainable AI and semantic data integration.<br/>
+              <span class="text-gray-700">Reflection:</span> Strengthened foundations in semantic data integration, time series prediction, and AI transparency.
+            </div>
           </div>
-          <!-- Web Crawler -->
-          <div>
-            <h3 class="font-semibold text-base">荷兰新闻档案网络爬虫</h3>
-            <p class="text-xs text-gray-600 mb-1">阿姆斯特丹大学</p>
-            <ul class="list-disc list-inside text-gray-800 text-xs md:text-sm space-y-2">
-              <li><span class="font-semibold">背景：</span>大规模研究需高完整性新闻数据集。</li>
-              <li><span class="font-semibold">任务：</span>开发高效网络爬虫，自动化数据提取与结构化。</li>
-              <li><span class="font-semibold">行动：</span>实现反屏蔽与相关性过滤算法，自动化处理超100万新闻。</li>
-              <li><span class="font-semibold">结果：</span>数据完整性达99%，为研究提供可靠数据集。</li>
-              <li><span class="font-semibold">反思：</span>提升了自动化、数据质量保障与大规模数据工程能力。</li>
-            </ul>
+        </section>
+        <!-- Technical Skills -->
+        <section>
+          <div class="flex items-center text-xl font-semibold mb-2"><i class="fa-solid fa-gears mr-2"></i>Technical Skills</div>
+          <div class="ml-6 text-gray-700 space-y-1">
+            <div><span class="font-semibold">Programming:</span> Python (Advanced), Bash, SQL</div>
+            <div><span class="font-semibold">Machine Learning & Data:</span> PyTorch, TensorFlow, scikit-learn, XGBoost, Pandas, Polars, NumPy, Pydantic</div>
+            <div><span class="font-semibold">Web/API:</span> FastAPI, Flask, Django, Streamlit</div>
+            <div><span class="font-semibold">NLP & Large Models:</span> Transformers (Self-developed), Hugging Face (Speech Detection, Image to LaTeX), spaCy, NLTK, LangChain</div>
+            <div><span class="font-semibold">Data Engineering:</span> GeoPandas, NetworkX, OSMnx, RDFlib, GraphDB, JupyterHub, Grafana</div>
+            <div><span class="font-semibold">DevOps:</span> Docker, Docker Compose, NGINX, CI/CD, Linux (6+ years daily use)</div>
+            <div><span class="font-semibold">Remote/Advanced:</span> NVIM/LunarVim, Python multiprocessing/multithreading, LaTeX, Markdown</div>
           </div>
-          <!-- Bachelor's Thesis -->
-          <div class="print:break-inside-avoid">
-            <h3 class="font-semibold text-base">本科论文：异构物联网数据可解释AI处理</h3>
-            <p class="text-xs text-gray-600 mb-1">阿姆斯特丹自由大学</p>
-            <ul class="list-disc list-inside text-gray-800 text-xs md:text-sm space-y-2">
-              <li><span class="font-semibold">背景：</span>整合多源物联网数据需透明、可互操作、可解释的AI方案。</li>
-              <li><span class="font-semibold">任务：</span>设计可解释模型与数据管道，统一异构物联网数据。</li>
-              <li><span class="font-semibold">行动：</span>开发设备行为预测模型，基于RDF和SPARQL实现数据集成，确保模型可解释性。</li>
-              <li><span class="font-semibold">结果：</span>交付了稳健的物联网数据集成与预测系统，获得8.0分，展示了可解释AI与语义数据集成的实际价值。</li>
-              <li><span class="font-semibold">反思：</span>夯实了语义数据集成、时序预测与AI透明性基础。</li>
-            </ul>
+        </section>
+        <!-- Leadership & Communication -->
+        <section>
+          <div class="flex items-center text-xl font-semibold mb-2"><i class="fa-solid fa-people-group mr-2"></i>Leadership & Communication</div>
+          <div class="ml-6 text-gray-700">Served as Chairman of Communication Committee in Faculty of Science Student Council: chaired meetings, assigned tasks, coordinated communication.<br/>Led practical courses and guided 10+ students in machine learning and data projects.</div>
+        </section>
+        <!-- Core Courses -->
+        <section>
+          <div class="flex items-center text-xl font-semibold mb-2"><i class="fa-solid fa-book mr-2"></i>Core Courses</div>
+          <div class="ml-6 text-gray-700 space-y-1">
+            <div><span class="font-semibold">Deep Learning:</span> Custom CNN, DNN implementation</div>
+            <div><span class="font-semibold">Natural Language Processing:</span> Transformers, Hugging Face, Advanced NLP</div>
+            <div><span class="font-semibold">Data Mining Techniques:</span> XGBoost ranking, Kaggle competitions</div>
+            <div><span class="font-semibold">Reinforcement Learning Projects:</span> Data center optimization RL</div>
+            <div><span class="font-semibold">Conversational Robot:</span> Dialogue agent based on OpenAI API, won first place in class competition (1/8 teams)</div>
+            <div><span class="font-semibold">Evolutionary Computing:</span> Custom evolutionary algorithms for game AI</div>
           </div>
-        </div>
-      </section>
-      <!-- Technical Skills -->
-      <section class="mb-5 mt-8 ">
-        <h2 class="text-xl md:text-2xl font-bold text-blue-700 mb-4">技术技能</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
-          <ul class="space-y-0.5 text-xs md:text-sm">
-            <li><span class="font-semibold">编程：</span>Python（高级）、Bash、SQL</li>
-            <li><span class="font-semibold">机器学习与数据：</span>PyTorch、TensorFlow、scikit-learn、XGBoost、Pandas、Polars、NumPy、Pydantic</li>
-            <li><span class="font-semibold">Web/API：</span>FastAPI、Flask、Django、Streamlit</li>
-            <li><span class="font-semibold">NLP与大模型：</span>Transformers（自研）、Hugging Face（语音检测、图像转LaTeX）、spaCy、NLTK、LangChain</li>
-          </ul>
-          <ul class="space-y-0.5 text-xs md:text-sm">
-            <li><span class="font-semibold">数据工程：</span>GeoPandas、NetworkX、OSMnx、RDFlib、GraphDB、JupyterHub、Grafana</li>
-            <li><span class="font-semibold">DevOps：</span>Docker、Docker Compose、NGINX、CI/CD、Linux（6年以上日常使用）</li>
-            <li><span class="font-semibold">远程/高级：</span>NVIM/LunarVim、Python多进程/多线程、LaTeX、Markdown</li>
-          </ul>
-        </div>
-      </section>
-      <!-- Leadership & Communication -->
-      <section class="mb-5 ">
-        <h2 class="text-xl md:text-2xl font-bold text-blue-700 mb-4">领导力与沟通</h2>
-        <ul class="list-disc list-inside text-gray-800 text-xs md:text-sm space-y-2">
-          <li>担任理学院学生会沟通委员会主席：主持会议、分配任务、协调沟通。</li>
-          <li>带领实践课程并指导10+名学生参与机器学习与数据项目。</li>
-        </ul>
-      </section>
-      <!-- Selected Coursework -->
-      <section class="mb-5 ">
-        <h2 class="text-xl md:text-2xl font-bold text-blue-700 mb-4">核心课程</h2>
-        <ul class="list-disc list-inside text-gray-800 text-xs md:text-sm space-y-2">
-          <li><span class="font-semibold">深度学习：</span>自定义CNN、DNN实现</li>
-          <li><span class="font-semibold">自然语言处理：</span>Transformers、Hugging Face、高级NLP</li>
-          <li><span class="font-semibold">数据挖掘技术：</span>XGBoost排序、Kaggle竞赛</li>
-          <li><span class="font-semibold">强化学习项目：</span>数据中心优化RL</li>
-          <li><span class="font-semibold">交流机器人：</span>基于OpenAI API的对话代理，获班级竞赛第一名（1/8队）</li>
-          <li><span class="font-semibold">进化计算：</span>自定义进化算法用于游戏AI</li>
-        </ul>
-      </section>
-      <!-- Education -->
-      <section class="">
-        <h2 class="text-xl md:text-2xl font-bold text-blue-700 mb-4">教育背景</h2>
-        <ul class="list-none space-y-2 text-xs md:text-sm">
-          <li>
-            <span class="font-semibold">人工智能硕士</span> <span class="text-gray-600">（2023年9月–2025年8月）</span><br>
-            阿姆斯特丹自由大学 & 北京工业大学
-          </li>
-          <li>
-            <span class="font-semibold">人工智能学士</span> <span class="text-gray-600">（2019年9月–2023年8月）</span><br>
-            阿姆斯特丹自由大学
-          </li>
-        </ul>
-      </section>
-    </main>
-  </div>
-</body>
+        </section>
+        <!-- Language Abilities -->
+        <section>
+          <div class="flex items-center text-xl font-semibold mb-2"><i class="fa-solid fa-language mr-2"></i>Language Abilities</div>
+          <div class="ml-6 text-gray-700 space-y-1">
+            <div>Polish (Native)</div>
+            <div>English (Fluent)</div>
+            <div>Chinese (HSK2)</div>
+            <div>Spanish (Basic)</div>
+            <div>Dutch (Basic)</div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
 </html> 
