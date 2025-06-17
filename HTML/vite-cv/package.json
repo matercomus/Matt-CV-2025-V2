@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@google-cloud/translate": "^7.2.1",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "translate-google": "^1.5.0"
   }
 }
