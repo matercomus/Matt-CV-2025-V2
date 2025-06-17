@@ -1,4 +1,4 @@
-import { Translate } from '@google-cloud/translate/build/src/v2';
+import { Translate } from '@google-cloud/translate';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
