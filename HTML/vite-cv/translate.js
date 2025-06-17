@@ -1,5 +1,4 @@
-import pkg from '@google-cloud/translate';
-const { Translate } = pkg;
+import { v2 as translate } from '@google-cloud/translate';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -12,7 +11,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Initialize the Google Cloud Translation client with API key
-const translate = new Translate({
+const translateClient = new translate.Translate({
     key: process.env.GOOGLE_TRANSLATE_API_KEY
 });
 
@@ -30,7 +29,7 @@ async function translateHTML() {
         const textContent = htmlContent.replace(/<[^>]*>/g, ' ').trim();
         
         // Translate the content
-        const [translation] = await translate.translate(textContent, {
+        const [translation] = await translateClient.translate(textContent, {
             from: 'en',
             to: 'zh'
         });
