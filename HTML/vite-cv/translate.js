@@ -1,4 +1,5 @@
-import { Translate } from '@google-cloud/translate';
+import pkg from '@google-cloud/translate';
+const { Translate } = pkg;
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
